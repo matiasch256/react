@@ -24,6 +24,11 @@ la pagina por primera vez se carga mas lento, pero luego es todo mucho mas fluid
 Es una herramienta para los desarrolladores que nos permite trabajar con javascript y construir app web modernas.
 Te permite ver tu aplicacion en tiempo real en el navegador a medida que haces cambios.
 Similar a Go Live de visual studio.
+Tambien crea un proyecto standar del framework seleccionado, en este caso react.
+Vite convierte nuestro codigo jsx a codigo javascript que nuestro navegador entiende. 
+
+//NEXT
+es como un framework de react, como la evolucion de react, si se quiere se ve mas adelante. 
 
 //NPM
 1) 
@@ -36,3 +41,18 @@ javascript
 cd nombre del proyecto --> nos movemos hasta el proyecto.
 npm install
 npm run dev
+
+
+// PRODUCCION VS DESARROLLO.
+
+Cuando estamos trabajando de forma local en nuestra computadora es modo desarrollo.
+Cuando estamos en PRODUCCION, es por que la aplicacion ya esta suvida a un servidor. 
+
+//Dependencias
+Son las librerias o modulos que instalamos. Son necesarias para PRODUCCION.
+
+//DevDependecies
+Son Modulos que utilizamos en DESARROLLO, Se usan de forma local. No van en el servidor.
+
+//Scripts
+Son codigos que ejecutamos en nodejs
