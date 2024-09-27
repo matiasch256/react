@@ -1,0 +1,38 @@
+// NODEJS
+Node es un entorno de ejecucion de javascript, que permite ejecutar javascript en nuestra computadora
+y permite darle acceso a recursos de nuestra computadora.
+Comando para ver la version de node: node -v
+Node js , es altamente modular, por lo que viene casi vacia y hay que instalar librerias.
+
+//NPM
+Es una herramienta que nos permite instalar librerias como :  talwind, boostrap, material ui,
+sass, etc. 
+direccion: npmjs.com
+
+//VIRTUAL DOM
+React utiliza componentes , y el virtual dom calcula el area de impacto y luego solo cambia en el dom
+el componente afectado. Entonces te modifica componentes, pero no renderiza toda la pagina completamente
+entonces hace que sea mucho mas rapida la interaccion.
+
+//SPA:
+single page aplication, renderizan solo un html , y en lugar de recargar la pagina completa cada vez que el usuario navega en diferentes direcciones
+utiliza tecnicas de javascript para cambiar dinamicamente el contenido de esa pagina unica. --> lo que hace React
+o Vue, o angular, es renderizar un solo html. Pero esto tiene un costo, que cuando se carga
+la pagina por primera vez se carga mas lento, pero luego es todo mucho mas fluido. 
+
+//VITE:
+Es una herramienta para los desarrolladores que nos permite trabajar con javascript y construir app web modernas.
+Te permite ver tu aplicacion en tiempo real en el navegador a medida que haces cambios.
+Similar a Go Live de visual studio.
+
+//NPM
+1) 
+npm create vite --> descargamos la libreria vite 
+y
+nombre del proyecto.
+react.
+javascript
+2)
+cd nombre del proyecto --> nos movemos hasta el proyecto.
+npm install
+npm run dev
